@@ -7,7 +7,7 @@
 body{
     background-color: hsl(216, 12%, 18%) ;
 }
-/* --- Caja principal ---*/
+/* --- Main box ---*/
 .container{
     background-image: linear-gradient(hsl(213, 19%, 22%), hsl(213, 19%, 10%));
     /* background-image: radial-gradient(hsl(213, 19%, 22%), hsl(213, 19%, 10%)); */
@@ -18,7 +18,7 @@ body{
     margin: 5% 0 0 5%;
 
 }
-/* -- Icono Estrella -- */
+/* -- Star icon -- */
 
 .logo{
     background-color: rgba(150, 148, 148, 0.185);
@@ -36,19 +36,19 @@ body{
     left: 12px;
 }
 
-/* --- Caja mensaje ---*/
+/* --- Message box ---*/
 .message{
     margin-top: 5%;
 }
 
-/* Titulo */
+/* --- Title --- */
 .message h2{
     /* margin-bottom: 2%; */
     font-family: 'Overpass', sans-serif;
     font-weight: 400;
 }
 
-/* Parrafo */
+/* --- Message text --- */
 .message p{
     margin-top: 3%;
     font-family: 'Overpass', sans-serif;
@@ -58,7 +58,7 @@ body{
     
 }
 
-/* Botones */
+/* --- Buttons --- */
 
 .values{
     display: flex;
@@ -85,7 +85,7 @@ body{
     cursor: pointer;
 }
 
-/* -- Boton Submit --*/
+/* --- Submit Button --- */
 form button{
     background-color: hsl(25, 97%, 53%);
     border: none;
@@ -135,13 +135,13 @@ form button:hover{
 #thank-you-message{
     margin-top: 5%;
 }
-/* Pic */
+/* --- Pic --- */
 #thank-you{
     margin-left: 25%;
     margin-top: 5%;
 }
 
-/* Title */
+/* --- Title --- */
 #thank-you-message h2{
     /* margin-bottom: 2%; */
     font-family: 'Overpass', sans-serif;
@@ -151,7 +151,7 @@ form button:hover{
     margin-top: 8%;
 }
 
-/* Values */
+/* --- Values --- */
 .selectedRating p{
     border-radius: 2rem;
     width: 55%;
@@ -165,7 +165,7 @@ form button:hover{
     margin: 10% 0 0 20%;
 }
 
-/* Text */
+/* --- Selected Rating --- */
 #thank-you-message p{
     margin-top: 5%;
     font-family: 'Overpass', sans-serif;
